@@ -1,0 +1,21 @@
+.container {
+    max-width: 1008px;;
+}
+.item:before { 
+    content: ""; 
+    background-image: url(images/phone.png);
+    background-size: 80px 80px; 
+    background-repeat: no-repeat; 
+    padding-left: 80px;
+    padding-bottom: 70px;
+}
+.item {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black; 
+    height: 150px;
+    width: 250px;}
+
+.name {margin-top: 60px;}
+.newUan {color: red;}
+.oldUan {text-decoration: line-through;}
